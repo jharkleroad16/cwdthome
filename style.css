@@ -1,0 +1,156 @@
+html, * {
+	border: 0px solid black;
+	color: #4b3832;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+#mainHeading {
+	font-size: 25px;
+	font-weight: 700;
+	padding: 10px;
+}
+
+#mainHeading a {
+	text-decoration: none;
+	color: #4b3832;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+#break {
+	border: none;
+	color: #4b3832; 
+	padding: 0px; 
+	margin: 0px; 
+	font-size: 20px; 
+	transition: none !important;
+	text-decoration: none;
+	cursor: initial;
+}
+
+#break:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.jumbotron {
+	position: relative;
+	display: flex;
+	align-items: center;
+	border-top: 4px solid #4b3832; 
+	border-bottom: 4px solid #4b3832;
+	background-image: url("https://cdn-media-1.lifehack.org/wp-content/files/2017/02/31072713/windows-and-door.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+	color: #3b3a2f;
+	height: 600px;
+}
+
+.jumbotron p {
+	font-size: 13rem !important;
+	color: 	#4b3832;
+}
+
+.jumbotron hr {
+	position: inherit;
+	border: 1px solid #4b3832;
+	width: 75%;
+	margin-bottom: 40px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jumbotron h4 {
+	font-size: 5rem;
+	color: 	#4b3832;
+}
+
+.categories {	
+	position: relative;
+	border: 3px ridge #4b3832;
+	border-radius: 10px; 
+	height: 36rem;
+	width: 60rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+.categories h1, hr {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -5% 0 0 -25%;
+}
+
+.categories hr {
+	 width: 50%; border: 1px solid white;"
+}
+
+#hover {
+	transition: opacity .2s;
+	border-radius: 5px;
+	opacity: 0;
+	background-color: #4b3832;
+	color: #ffffff;
+	height: 100%;
+}
+
+#hover:hover {
+	opacity: .9;
+}
+
+
+.categories#commercial {
+	background-image: url("https://media.bizj.us/view/img/10140054/stoney-pointe-comparison1750xx2896-1629-0-158*1200xx748-421-1-0.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.categories#residential {
+	background-image: url("http://hhomedesign.com/wp-content/uploads/2015/04/Finalwithlights-720x415.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.categories#luxury {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/Homes-LuxuryHome3-Bel_Air_California.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.categories#historic {
+	background-image: url("http://www.jetsongreen.com/images/old/6a00d8341c67ce53ef0112796d66e228a4-800wi.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.btn.btn-primary {
+	transition: color, background-color, .2s;
+	margin: 0px 5px 0px 5px;
+	border: none;
+	border-radius: 5px;
+	color: #4b3832;
+	text-shadow: none;
+	text-decoration: underline;
+	text-decoration-color: #4b3832;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+.btn.btn-primary:hover {
+	color: #ffffff;
+	background-color: #4b3832;
+	font-weight: bold;
+}
+
+
