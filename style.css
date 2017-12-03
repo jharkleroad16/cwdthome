@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 html, * {
 	border: 0px solid black;
 	color: #4b3832;
@@ -6,6 +8,9 @@ html, * {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 }
+
+
+/* HEADING/NAV STYLES */
 
 #mainHeading {
 	font-size: 25px;
@@ -37,6 +42,9 @@ nav {
 	color: #000000;
 	background-color: #ffffff;
 }
+
+
+/* JUMBOTRON STYLING */
 
 .jumbotron {
 	position: relative;
@@ -71,6 +79,9 @@ nav {
 	font-size: 5rem;
 	color: 	#4b3832;
 }
+
+
+/* MAIN BODY STYLING */
 
 .categories {	
 	position: relative;
@@ -110,7 +121,6 @@ nav {
 	opacity: .9;
 }
 
-
 .categories#commercial {
 	background-image: url("https://media.bizj.us/view/img/10140054/stoney-pointe-comparison1750xx2896-1629-0-158*1200xx748-421-1-0.jpg");
 	background-size: cover;
@@ -134,6 +144,10 @@ nav {
 	background-size: cover;
 	background-position: center;
 }
+
+
+/* OBJECT STYLING */
+
 .btn.btn-primary {
 	transition: color, background-color, .2s;
 	margin: 0px 5px 0px 5px;
