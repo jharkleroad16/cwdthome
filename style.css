@@ -1,3 +1,13 @@
+/* FONT IMPORTS */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 /* GLOBAL STYLES */
 
 html, * {
@@ -8,6 +18,10 @@ html, * {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 }
+
+/*body {
+	background-color: #c1ba7e !important;
+}*/
 
 
 /* HEADING/NAV STYLES */
@@ -86,7 +100,7 @@ nav {
 .categories {	
 	position: relative;
 	border: 3px ridge #4b3832;
-	border-radius: 10px; 
+	border-radius: 10px;
 	height: 36rem;
 	width: 60rem;
 	display: block;
@@ -110,7 +124,7 @@ nav {
 
 #hover {
 	transition: opacity .2s;
-	border-radius: 5px;
+	border-radius: 10px;
 	opacity: 0;
 	background-color: #4b3832;
 	color: #ffffff;
@@ -145,6 +159,11 @@ nav {
 	background-position: center;
 }
 
+/*.lead {
+ 	font-weight: bold !important;
+	font-size: 3rem !important;
+} */
+
 
 /* OBJECT STYLING */
 
@@ -157,7 +176,8 @@ nav {
 	text-shadow: none;
 	text-decoration: underline;
 	text-decoration-color: #4b3832;
-	background-color: #ffffff;
+	background-color: #fff;
+	/*background-color: #c1ba7e;*/
 	font-weight: bold;
 }
 
