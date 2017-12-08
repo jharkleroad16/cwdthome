@@ -19,9 +19,9 @@ html, * {
 	-webkit-font-smoothing: antialiased !important;
 }
 
-/*body {
+body {
 	background-color: #c1ba7e !important;
-}*/
+}
 
 
 /* HEADING/NAV STYLES */
@@ -54,7 +54,7 @@ nav {
 
 #break:hover {
 	color: #000000;
-	background-color: #ffffff;
+	background-color: #c1ba7e;
 }
 
 
@@ -159,10 +159,10 @@ nav {
 	background-position: center;
 }
 
-/*.lead {
+.lead {
  	font-weight: bold !important;
 	font-size: 3rem !important;
-} */
+} 
 
 
 /* OBJECT STYLING */
@@ -177,7 +177,7 @@ nav {
 	text-decoration: underline;
 	text-decoration-color: #4b3832;
 	background-color: #fff;
-	/*background-color: #c1ba7e;*/
+	background-color: #c1ba7e;
 	font-weight: bold;
 }
 
